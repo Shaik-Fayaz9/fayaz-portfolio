@@ -9,93 +9,80 @@ const Footer = () => {
 
   const currentYear = new Date().getFullYear();
 
+  const links = [
+    { name: 'About Me', href: '#about' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Resume', href: '#resume' },
+    { name: 'Contact', href: '#contact' }
+  ];
+
   return (
-    <footer className="bg-foreground text-background py-16">
+    <footer className="bg-foreground text-background py-10">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
-          {/* Brand & Description */}
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-6">
+          {/* Left: Brand and Socials */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Shaik Fayaz</h3>
-            <p className="text-background/80 leading-relaxed">
-              Data Analyst passionate about turning data into actionable business insights 
-              through machine learning and advanced analytics.
+            <h3 className="text-xl font-bold">Shaik Fayaz</h3>
+            <p className="text-sm text-background/70">
+              Data Analyst turning data into business insights through analytics & ML.
             </p>
-            <div className="flex space-x-4">
-              <Button variant="ghost" size="sm" asChild className="text-background hover:text-foreground hover:bg-background">
-                <a href="https://www.linkedin.com/in/fayazshaik2001" target="_blank" rel="noopener noreferrer">
+            <div className="flex gap-3">
+              <a href="https://www.linkedin.com/in/fayazshaik2001" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="text-background hover:text-primary">
                   <Linkedin className="h-5 w-5" />
-                </a>
-              </Button>
-              <Button variant="ghost" size="sm" asChild className="text-background hover:text-foreground hover:bg-background">
-                <a href="https://www.github.com/Shaik-Fayaz9" target="_blank" rel="noopener noreferrer">
+                </Button>
+              </a>
+              <a href="https://github.com/Shaik-Fayaz9" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="text-background hover:text-primary">
                   <Github className="h-5 w-5" />
-                </a>
-              </Button>
-              <Button variant="ghost" size="sm" asChild className="text-background hover:text-foreground hover:bg-background">
-                <a href="mailto:shaikfaya9@gmail.com">
+                </Button>
+              </a>
+              <a href="mailto:shaikfaya9@gmail.com">
+                <Button variant="ghost" size="icon" className="text-background hover:text-primary">
                   <Mail className="h-5 w-5" />
-                </a>
-              </Button>
+                </Button>
+              </a>
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Quick Links</h4>
-            <div className="space-y-2">
-              {[
-                { name: 'About Me', href: '#about' },
-                { name: 'Skills', href: '#skills' },
-                { name: 'Projects', href: '#projects' },
-                { name: 'Resume', href: '#resume' },
-                { name: 'Contact', href: '#contact' }
-              ].map((link) => (
+          {/* Right: Quick Navigation & Info */}
+          <div className="flex flex-col md:items-end space-y-4">
+            <div className="flex flex-wrap gap-4 justify-start md:justify-end">
+              {links.map((link) => (
                 <button
                   key={link.name}
                   onClick={() => {
                     const element = document.querySelector(link.href);
                     element?.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="block text-background/80 hover:text-background transition-colors"
+                  className="text-sm text-background/70 hover:text-background transition-colors"
                 >
                   {link.name}
                 </button>
               ))}
             </div>
-          </div>
-
-          {/* Contact Info */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Get In Touch</h4>
-            <div className="space-y-2 text-background/80">
-              <p>📧 shaikfaya9@gmail.com</p>
-              <p>📱 +91 7569797615</p>
-              <p>📍 Hyderabad, Telangana, India</p>
-            </div>
-            <div className="pt-4">
-              <div className="flex items-center gap-2 text-green-400">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm">Available for opportunities</span>
-              </div>
+            <div className="text-sm text-background/60 text-right">
+              📧 shaikfaya9@gmail.com <br />
+              📍 Hyderabad, India
             </div>
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-background/60 text-sm mb-4 md:mb-0">
-            © {currentYear} Shaik Fayaz. Built with{" "}
-            <Heart className="inline h-4 w-4 text-red-400 mx-1" />
-            using React & Tailwind CSS.
+        {/* Bottom */}
+        <div className="flex flex-col md:flex-row justify-between items-center border-t border-background/20 pt-4">
+          <p className="text-xs text-background/50 text-center md:text-left mb-2 md:mb-0">
+            © {currentYear} Shaik Fayaz. Made with{" "}
+            <Heart className="inline h-3 w-3 text-red-400 mx-1" />
+            using React + Tailwind CSS.
           </p>
-          
           <Button 
             variant="ghost" 
             size="sm" 
             onClick={scrollToTop}
-            className="text-background hover:text-foreground hover:bg-background"
+            className="text-background hover:text-primary"
           >
-            <ArrowUp className="h-4 w-4 mr-2" />
+            <ArrowUp className="h-4 w-4 mr-1" />
             Back to Top
           </Button>
         </div>
