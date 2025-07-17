@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Github, ExternalLink, TrendingUp, Heart, ShoppingCart, Users, Award } from "lucide-react";
+import { Github, TrendingUp, Heart, ShoppingCart, Users, Award } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -17,7 +17,8 @@ const Projects = () => {
         "Data preprocessing and feature engineering",
         "Logistic regression implementation",
         "Model evaluation and cross-validation"
-      ]
+      ],
+      link: "https://github.com/Shaik-Fayaz9/heart-disease-prediction"
     },
     {
       title: "Retail Sales Dashboard",
@@ -30,7 +31,8 @@ const Projects = () => {
         "Sales trend analysis",
         "Customer segmentation",
         "KPI tracking dashboard"
-      ]
+      ],
+      link: "https://github.com/Shaik-Fayaz9/retail-sales-dashboard"
     },
     {
       title: "Banking Churn Analysis",
@@ -43,7 +45,8 @@ const Projects = () => {
         "EDA and visualization",
         "Churn pattern detection",
         "Hypothesis testing"
-      ]
+      ],
+      link: "https://github.com/Shaik-Fayaz9/banking-churn-analysis"
     },
     {
       title: "Customer Segmentation Model",
@@ -56,7 +59,8 @@ const Projects = () => {
         "Clustering with K-Means",
         "Feature scaling and optimization",
         "Cluster validation and business strategy"
-      ]
+      ],
+      link: "https://github.com/Shaik-Fayaz9/customer-segmentation"
     }
   ];
 
@@ -141,10 +145,16 @@ const Projects = () => {
                       <span className="text-xs text-muted-foreground">Result:</span>
                       <div className="font-medium text-primary">{project.results}</div>
                     </div>
-                    <Button variant="outline" size="sm" className="hover:bg-primary hover:text-primary-foreground">
-                      <Github className="h-4 w-4 mr-1" />
-                      View Code
-                    </Button>
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" size="sm" className="hover:bg-primary hover:text-primary-foreground">
+                        <Github className="h-4 w-4 mr-1" />
+                        View Code
+                      </Button>
+                    </a>
                   </div>
                 </CardContent>
               </Card>
@@ -160,13 +170,19 @@ const Projects = () => {
               <p className="mb-6 opacity-90">
                 Visit my GitHub to see all code, notebooks, and more real-world ML/BI projects.
               </p>
-              <Button 
-                size="lg"
-                className="bg-muted text-white hover:bg-primary hover:text-primary-foreground transition-transform"
+              <a
+                href="https://github.com/Shaik-Fayaz9"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Github className="mr-2 h-5 w-5" />
-                View All Projects on GitHub
-              </Button>
+                <Button 
+                  size="lg"
+                  className="bg-muted text-white hover:bg-primary hover:text-primary-foreground transition-transform"
+                >
+                  <Github className="mr-2 h-5 w-5" />
+                  View All Projects on GitHub
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </div>
@@ -189,7 +205,5 @@ const Projects = () => {
     </section>
   );
 };
-
-
 
 export default Projects;
