@@ -65,7 +65,7 @@ const Navigation = () => {
               </button>
             ))}
             <a
-              href="/Shaik_Fayaz_Resume.pdf"
+              href="/Shaik_Fayaz_Resume .pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
