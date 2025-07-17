@@ -53,14 +53,26 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <Button variant="outline" size="lg" className="hover:scale-105 transition-transform">
-                <Github className="mr-2 h-5 w-5" />
-                View GitHub
-              </Button>
-              <Button variant="outline" size="lg" className="hover:scale-105 transition-transform">
-                <Linkedin className="mr-2 h-5 w-5" />
-                Connect on LinkedIn
-              </Button>
+              <a
+                href="https://github.com/Shaik-Fayaz9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" size="lg" className="hover:scale-105 transition-transform">
+                  <Github className="mr-2 h-5 w-5" />
+                  View GitHub
+                </Button>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/fayazshaik2001/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" size="lg" className="hover:scale-105 transition-transform">
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  Connect on LinkedIn
+                </Button>
+              </a>
             </div>
           </div>
         </div>
