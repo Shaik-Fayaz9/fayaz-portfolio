@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+# 🧠 Shaik Fayaz – Data Analyst Portfolio
 
-## Project info
+Welcome to the official portfolio repository of **Shaik Fayaz**, a data analyst passionate about data storytelling, machine learning, and business insights.
 
-**URL**: https://lovable.dev/projects/388d1081-cb60-4295-ab98-5a75ddbec0b6
+## 🌐 Live Site
 
-## How can I edit this code?
+👉 **URL**: ([https://your-deployed-url.com](https://fayaz-portfolio-two.vercel.app/))  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📁 Project Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/388d1081-cb60-4295-ab98-5a75ddbec0b6) and start prompting.
+This portfolio showcases:
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🔥 Hero Section with intro, social links, and resume
+- 🙋‍♂️ About Me with timeline-style background
+- 💡 Skills Grid grouped by tools and languages
+- 🚀 Interactive Projects with animations
+- 📄 Resume section with PDF download
+- 📬 Contact form with social links
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Built With
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- ⚛️ **React** + **TypeScript**
+- 🎨 **Tailwind CSS** + custom themes
+- 🧩 **shadcn/ui** components
+- 🌀 **Framer Motion** (or GSAP for animations)
+- ⚡ **Vite** (blazing fast development)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Getting Started Locally
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 1. Clone the repository
+git clone https://github.com/Shaik-Fayaz9/fayaz-portfolio.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Navigate to project folder
+cd fayaz-portfolio
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Install dependencies
+npm install
+
+# 4. Start local development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+## 🧑‍💻 Author
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Shaik Fayaz**  
+- 🔗 GitHub: [@Shaik-Fayaz9](https://github.com/Shaik-Fayaz9)  
+- 📧 Email: [shaikfaya9@gmail.com](mailto:shaikfaya9@gmail.com)  
+- 💼 LinkedIn: [Connect](https://www.linkedin.com/in/shaik-fayaz-2b3716252/)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📄 License
 
-## What technologies are used for this project?
+This portfolio project is for educational and professional demonstration purposes.  
+You are free to **fork**, **adapt**, or **reference** it — just provide **credit** where due.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/388d1081-cb60-4295-ab98-5a75ddbec0b6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
