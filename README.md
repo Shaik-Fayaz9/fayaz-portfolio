@@ -4,7 +4,7 @@ Welcome to the official portfolio repository of **Shaik Fayaz**, a data analyst 
 
 ## 🌐 Live Site
 
-👉 **URL**: ([https://your-deployed-url.com](https://fayaz-portfolio-two.vercel.app/))  
+👉 **URL**: ([Shaik-Fayaz Portfolio](https://fayaz-portfolio-two.vercel.app/))  
 
 ---
 
