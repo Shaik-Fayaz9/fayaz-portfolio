@@ -67,22 +67,22 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "/in/fayazshaik2001",
+      value: "linkedin.com/in/fayazshaik2001",
       link: "https://www.linkedin.com/in/fayazshaik2001",
       color: "hover:text-blue-600"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "/Shaik-Fayaz9",
-      link: "https://www.github.com/Shaik-Fayaz9",
+      value: "github.com/Shaik-Fayaz9",
+      link: "https://github.com/Shaik-Fayaz9",
       color: "hover:text-gray-800"
     },
     {
       icon: Instagram,
       label: "Instagram",
-      value: "@fayaz__shaik",
-      link: "https://www.instagram.com/fayaz__shaik",
+      value: "@crazy__g.u.y",
+      link: "https://www.instagram.com/crazy__g.u.y?igsh=ZG5jYm1kNTd3b2U4",
       color: "hover:text-pink-600"
     }
   ];
