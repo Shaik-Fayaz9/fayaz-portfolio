@@ -69,7 +69,8 @@ const Projects = () => {
     "Machine Learning Fundamentals",
     "Power BI Certification",
     "SQL Database Management",
-    "Python for Data Analysis"
+    "Python for Data Analysis",
+    "Data Analyst Professional certificate"
   ];
 
   return (
