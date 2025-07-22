@@ -44,7 +44,7 @@ const Hero = () => {
                 Shaik Fayaz
               </h1>
               <h2 className="text-xl lg:text-2xl font-semibold text-foreground mb-4 animate-fade-in">
-                Data Analyst | Data Science Enthusiast | BI Developer
+                Data Analyst | Data Scientist | ML Engineer
               </h2>
               <p className="text-lg text-muted-foreground max-w-xl animate-fade-in-slow">
                 I turn data into powerful business decisions using analytics, machine learning, and visual storytelling.
