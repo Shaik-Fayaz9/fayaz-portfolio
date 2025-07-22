@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-bold">Shaik Fayaz</h3>
             <p className="text-sm text-background/70">
-              Data Analyst turning data into business insights through analytics & ML.
+              Data Analyst & Aspiring Data Scientist | Turning data into actionable insights through analytics, EDA & machine learning.
             </p>
             <div className="flex gap-3">
               <a href="https://www.linkedin.com/in/fayazshaik2001" target="_blank" rel="noopener noreferrer">
