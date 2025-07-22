@@ -5,36 +5,36 @@ import { GraduationCap, Briefcase, MapPin } from "lucide-react";
 const About = () => {
   const education = [
     {
-      title: 'MBA - Data Science',
+      title: 'MBA - Data Science & Analytics',
       institution: 'Current Studies',
-      period: '2023 - Present',
+      period: '2025 - Present',
       description: 'Specializing in Data Science and Business Analytics',
     },
     {
       title: 'B.Tech',
-      institution: 'Engineering Degree',
+      institution: 'Sree Venkateswara College of Engineering',
       period: '2019 - 2023',
-      description: 'Foundation in technology and analytical thinking',
+      description: 'Foundation in Electrical and Electronics Engineering',
     },
   ];
 
   const experience = [
     {
-      title: 'Data Analytics Intern',
+      title: 'Data Science Intern',
       institution: 'Algonive',
-      period: '2024',
-      description: 'Worked on advanced analytics and business intelligence.',
+      period: '2025',
+      description: 'Worked on Advanced Machine Learning.',
     },
     {
       title: 'ML Engineer Intern',
       institution: 'The Sun Technologies',
-      period: '2024',
+      period: '2023',
       description: 'Built and deployed ML models for automation.',
     },
     {
       title: 'Data Science Intern',
       institution: 'Innomatics Research Labs',
-      period: '2023',
+      period: '2024',
       description: 'Conducted EDA and developed predictive models.',
     },
   ];
@@ -46,7 +46,7 @@ const About = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4 text-gradient">About Me</h2>
           <p className="text-base text-muted-foreground max-w-2xl mx-auto">
-            I'm an MBA student specializing in Data Science with real-world experience in analytics, machine learning, and model deployment.
+           Data Science Intern @ ALGONIVE | MBA in Data Science & Analytics from Manipal University | Skilled in ML, EDA, Model Deployment | Python, Pandas, NumPy, scikit-learn | Aspiring Data Scientist with Real-World Project Experience
           </p>
         </div>
 
