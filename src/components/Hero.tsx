@@ -25,9 +25,9 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl hover-lift float">
                 <img 
-  src={newProfilePhoto} 
-  alt="Shaik Fayaz - Updated"
-  className="w-full h-full object-cover"
+                   src={newProfilePhoto} 
+                   alt="Shaik Fayaz - Updated"
+                   className="w-full h-full object-cover"
 />
 
                 />
